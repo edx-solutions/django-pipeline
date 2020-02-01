@@ -40,3 +40,9 @@ Documentation
 
 For documentation, usage, and examples, see :
 https://django-pipeline.readthedocs.io
+
+
+Note
+-------------
+
+This repository forked temporarily for Juniper release to add a patch which is not added by django-pipeline in version that supports Python3.5 and version tag used in upstream, for Juniper release, has a bug. The later version of django-pipeline's version supports Python>3.5. So, we added our patch on the django-pipeline==1.7.0. We can remove this fork when we will be using Python>3.5 and can use the version used by edx-platform
